@@ -1,0 +1,103 @@
+#nomedosite {
+  text-align: center;
+  border-radius: 10px;
+  background-color: aliceblue;
+  border: 2px solid rgb(83, 80, 80);
+}
+
+#divdaimegm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#imagem {
+  height: 40vh;
+  width: 50vw;
+  border-radius: 10px;
+  border: 2px solid rgb(83, 80, 80);
+}
+
+#divdalorem {
+  margin-left: 2vw;
+  text-align: justify;
+  background-color: aliceblue;
+  border-radius: 10px;
+  height: 200px;
+  width: 45%;
+  border: 2px solid rgb(83, 80, 80);
+}
+
+#lorem {
+  line-height: 1.5;
+  font-size: 1vw;
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+footer {
+  height: 20px;
+  width: 100%;
+  bottom: 10px;
+  position: fixed;
+  text-align: center;
+  background-color: aliceblue;
+  border: 2px solid rgb(83, 80, 80);
+}
+
+footer a {
+  background-color: aliceblue;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1vw;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
+footer a:hover {
+  background-color: #f74949;
+  color: black;
+}
+
+#conteudo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#divdoiframe {
+  height: 200px;
+  width: 45%;
+  background-color: aliceblue;
+  margin-right: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(83, 80, 80);
+}
+
+iframe {
+  height: 25vh;
+  width: 25vw;
+}
+
+#divdobutton {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: aliceblue;
+  border: 2px solid rgb(83, 80, 80);
+}
+
+* {
+  background-color: rgb(35, 124, 226);
+}
